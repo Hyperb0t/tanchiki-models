@@ -1,0 +1,13 @@
+ru\kpfu\itis\rodsher\tanchiki\models\Player.class
+ru\kpfu\itis\rodsher\tanchiki\models\Tank.class
+ru\kpfu\itis\rodsher\tanchiki\models\Wall.class
+ru\kpfu\itis\rodsher\tanchiki\models\App.class
+ru\kpfu\itis\rodsher\tanchiki\models\CollisionManager.class
+ru\kpfu\itis\rodsher\tanchiki\models\GameRules.class
+ru\kpfu\itis\rodsher\tanchiki\models\Field.class
+ru\kpfu\itis\rodsher\tanchiki\models\FieldGenerator.class
+ru\kpfu\itis\rodsher\tanchiki\models\Shell.class
+ru\kpfu\itis\rodsher\tanchiki\models\Floor.class
+ru\kpfu\itis\rodsher\tanchiki\models\GameStatus.class
+ru\kpfu\itis\rodsher\tanchiki\models\Direction.class
+ru\kpfu\itis\rodsher\tanchiki\models\AbstractEntity.class
