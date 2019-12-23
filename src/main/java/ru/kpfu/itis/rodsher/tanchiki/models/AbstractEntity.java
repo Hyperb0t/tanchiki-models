@@ -1,6 +1,7 @@
 package ru.kpfu.itis.rodsher.tanchiki.models;
 
 import java.awt.image.BufferedImage;
+import java.util.Objects;
 
 public abstract class AbstractEntity {
     //Координаты сущности
@@ -35,4 +36,18 @@ public abstract class AbstractEntity {
 
     //Путь до текстуры или как мы ее храним?
     public abstract BufferedImage getTexture();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AbstractEntity that = (AbstractEntity) o;
+        return Objects.equals(x, that.x) &&
+                Objects.equals(y, that.y);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
+    }
 }
